@@ -1,0 +1,27 @@
+
+export const GAME_CONSTANTS = {
+  BASE_PLAYER_SPEED: 5,
+  BASE_PLAYER_RADIUS: 20,
+  BASE_PLAYER_MAX_HEALTH: 100,
+  BASE_BULLET_SPEED: 14,
+  BASE_FIRE_RATE: 200, // ms between shots
+  BASE_DAMAGE: 10,
+  
+  UPGRADE_BASE_COST: 12,
+  
+  ENEMY_SPAWN_RATE: 0.015,
+  TANK_SPAWN_RATE: 0.005,
+  BOMBER_SPAWN_RATE: 0.002,
+  
+  COLORS: {
+    PLAYER: '#38bdf8',
+    PLAYER_GLOW: '#0ea5e9',
+    SCOUT: '#f87171',
+    BOMBER: '#f43f5e',
+    TANK: '#fbbf24',
+    BULLET_PLAYER: '#22d3ee',
+    BULLET_ENEMY: '#f43f5e',
+    EXPLOSION: '#f97316',
+    COIN: '#fde047'
+  }
+};
